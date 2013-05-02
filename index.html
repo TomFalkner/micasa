@@ -1,11 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <title>Tom Falkner</title>
-    <link media="all" href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
-</head>
-<body>
-    <h1>Test</h1>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <title>Tom Falkner</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Tom Falkner's website."
+        <meta name="author" content="Tom Falkner">
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/bootswatch.css" rel="stylesheet">
+
+        <!-- Add fancyBox -->
+        <link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.4" type="text/css" media="screen" />
+        <script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.1.4"></script>
+
+        <!-- Optionally add helpers - button, thumbnail and/or media -->
+        <link rel="stylesheet" href="css/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+        <script type="text/javascript" src="js/jquery.fancybox-buttons.js?v=1.0.5"></script>
+        <script type="text/javascript" src="js/jquery.fancybox-media.js?v=1.0.5"></script>
+        <link rel="stylesheet" href="css/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+        <script type="text/javascript" src="js/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+    </head>
+    <body class="preview" id="top" data-spy="scroll" data-target=".subnav" data-offset="80">
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <div class="nav-collapse collapse" id="main-menu">
+                        <ul class="nav" id="main-menu-left">
+                            <li><span class="lead" style="margin-top:5px;">mrf@tomfalkner.com</span></li>
+                            <li><a href="resume.html">Resume</a></li>
+                            <li><a href="link.html">Links</a></li>
+                            <li><a href="hire.html">Hire</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <header class="jumbotron subhead" id="overview">
+            <div class="row">
+                <div class="span6">
+                    <br/><br/><br/><br/><br/><br/>
+                    <h1>Tom Falkner</h1>
+                    <p class="lead">mrf@tomfalkner.com</p>
+                    <br/>
+                    <p>I'm a web developer that lives in Portland, OR, and does graphic design, print, and web work for the Oregonian. I do freelance on the side and have been moving in to mobile work.</p>
+                </div>
+            </div>
+            <div class="subnav">
+                <ul class="nav nav-pills">
+                    <li><a href="#web">HTML/CSS/JS</a></li>
+                    <li><a href="#illustration">Illustration</a></li>
+                    <li><a href="#print">Print Advertising</a></li>
+                    <li><a href="#mobile">iPhone and Android</a></li>
+                </ul>
+            </div>
+            </header>
+            <br/>
+            <h2>Web HTML/CSS/JS</h2>
+            <div>
+                <a class="fancybox" rel="group" href="big_image_1.jpg"><img src="small_image_1.jpg" alt="" /></a>
+            </div> 
+
+            <h2>Illustration</h2>
+
+            <h2>Print Advertising</h2>
+
+            <h2>Flash, iPhone and Android</h2>
+
+
+    <footer id="footer">
+    <p class="pull-right"><a href="#top">Back to top</a></p>
+    </footer>
+    </div><!-- /container -->
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.smooth-scroll.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootswatch.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $ready(".fancybox").fancybox();
+        });
+    </script>
+    </body>
 </html>
