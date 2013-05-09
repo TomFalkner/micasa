@@ -47,6 +47,9 @@ header {
     height:42px;
 
 }
+header p {
+    margin: 3px;
+}
 header ul {
     float:right;
     margin:0;
@@ -71,6 +74,10 @@ header ul li {
     display:inline-block;
     margin-right:12px;
 }
+header p {
+    float:right;
+    color:white;
+}
 
 header a {
     color:white;
@@ -93,6 +100,23 @@ h2 {
     line-height: 22px;
     font-weight:500;
 }
+
+h3 {
+    color: #2980b9;
+    font-size:20px;
+    margin:12px 0;
+}
+
+h4 {
+    color: #2980b9;
+    font-size:16px;
+    margin:12px 0;
+}
+
+ul {
+    color:#444;
+}
+
 .lead {
     color:#898989;
     font-size:22px;
@@ -136,8 +160,28 @@ h2 {
     border-radius:84px;
     border:3px solid #2980b9;
 }
+
 .footer {
     display:block;
     padding-top:140px;
     text-align:center;
 
+.resume {
+
+}
+
+.resume p {
+    color:#444;
+}
+
+.resume h2, h3 {
+    margin:12px 0;
+}
+
+.resume h4 {
+    margin: 12px 0 6px;
+}
+
+.resume ul {
+    margin:12px;
+}
