@@ -31,6 +31,7 @@ body {
 }
 
 #wrap {
+    height:60px;
     width: 960px;
     margin:0 auto;
 }
@@ -60,6 +61,17 @@ header ul li {
     
 }
 
+.follow-me {
+    display:block;
+    float:right;
+    margin:0;
+}
+
+.follow-me li {
+    display:inline-block;
+    margin-right:12px;
+}
+
 header a {
     color:white;
     text-decoration:none;
@@ -74,10 +86,17 @@ h2 {
     font-size:28px;
 }
 
+.title {
+    margin-top:50px;
+    color:#111111;
+    font-size:24px;
+    line-height: 22px;
+    font-weight:500;
+}
 .lead {
     color:#898989;
-    font-size:34px;
-    line-height: 42px;
+    font-size:22px;
+    line-height: 32px;
     font-weight:300;
 }
 .portfolio {
