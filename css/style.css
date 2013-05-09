@@ -46,6 +46,9 @@ header {
     height:42px;
 
 }
+header p {
+    margin: 3px;
+}
 header ul {
     float:right;
     margin:0;
@@ -58,6 +61,11 @@ header ul li {
     margin-right:12px;
     color:white;
     
+}
+
+header p {
+    float:right;
+    color:white;
 }
 
 header a {
@@ -74,6 +82,21 @@ h2 {
     font-size:28px;
 }
 
+h3 {
+    color: #2980b9;
+    font-size:20px;
+    margin:12px 0;
+}
+
+h4 {
+    color: #2980b9;
+    font-size:16px;
+    margin:12px 0;
+}
+
+ul {
+    color:#444;
+}
 .lead {
     color:#898989;
     font-size:34px;
@@ -116,4 +139,24 @@ h2 {
     overflow:hidden;
     border-radius:84px;
     border:3px solid #2980b9;
+}
+
+.resume {
+
+}
+
+.resume p {
+    color:#444;
+}
+
+.resume h2, h3 {
+    margin:12px 0;
+}
+
+.resume h4 {
+    margin: 12px 0 6px;
+}
+
+.resume ul {
+    margin:12px;
 }
