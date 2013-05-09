@@ -1,118 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8" />
         <title>Tom Falkner</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Tom Falkner's website."
-        <meta name="author" content="Tom Falkner">
         <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/bootswatch.css" rel="stylesheet">
-
-        <!-- Add fancyBox -->
-        <link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.4" type="text/css" media="screen" />
-        <script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.1.4"></script>
-
-        <!-- Optionally add helpers - button, thumbnail and/or media -->
-        <link rel="stylesheet" href="css/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
-        <script type="text/javascript" src="js/jquery.fancybox-buttons.js?v=1.0.5"></script>
-        <script type="text/javascript" src="js/jquery.fancybox-media.js?v=1.0.5"></script>
-        <link rel="stylesheet" href="css/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
-        <script type="text/javascript" src="js/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+        <link media="all" href="css/style.css" type="text/css" rel="stylesheet" />
     </head>
-    <body class="preview" id="top" data-spy="scroll" data-target=".subnav" data-offset="80">
-        <div class="navbar navbar-fixed-top">
-            <div class="navbar-inner">
-                <div class="container">
-                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </a>
-                    <div class="nav-collapse collapse" id="main-menu">
-                        <ul class="nav" id="main-menu-left">
-                            <li><span class="lead" style="margin-top:5px;">mrf@tomfalkner.com</span></li>
-                            <li><a href="resume.rtf">Resume</a></li>
-                            <li><a href="link.html">Links</a></li>
-                            <li><a href="hire.html">Hire</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <header class="jumbotron subhead" id="overview">
-            <div class="row">
-                <div class="span6">
-                    <br/><br/><br/><br/><br/><br/>
-                    <h1>Tom Falkner</h1>
-                    <p class="lead">mrf@tomfalkner.com</p>
-                    <br/>
-                    <p>I'm a web developer that lives in Portland, OR, and does graphic design, print, and web work for the Oregonian. I do freelance on the side and have been moving in to mobile work.</p>
-                </div>
-            </div>
-            <div class="subnav">
-                <ul class="nav nav-pills">
-                    <li><a href="#web">HTML/CSS/JS</a></li>
-                    <li><a href="#illustration">Illustration</a></li>
-                    <li><a href="#print">Print Advertising</a></li>
-                    <li><a href="#mobile">iPhone and Android</a></li>
+    <body>
+        <div id="wrap">
+            <header>
+                <h1>mrf@tomfalkner.com</h1>
+                <ul>
+                    <li>
+                        <a href="#">Resume</a>
+                    </li>
+                    <li>
+                        <a href="#">Links</a>
+                    </li>
+                    <li>
+                        <a href="#">Hire</a>
+                    </li>
                 </ul>
-            </div>
             </header>
-            <br/>
-            <h3>Web HTML/CSS/JS</h3>
-            <div>
-                <a class="fancybox" rel="group" href="img/mearsdesign.png"><img src="img/mearsdesign_thumb.jpg" alt="" /></a>
-                <a class="fancybox" rel="group" href="img/project_bloom.png"><img src="img/project_bloom_thumb.jpg" alt="" /></a>
-                <a class="fancybox" rel="group" href="img/werner.png"><img src="img/werner_thumb.jpg" alt="" /></a>
-                <a class="fancybox" rel="group" href="img/cabinetcures.png"><img src="img/cabinetcures_thumb.jpg" alt="" /></a>
-            </div> 
-            <br/><br/>
-            <h3>Illustration</h3>
-            <div>
-                <a class="fancybox" rel="group" href="img/monster_cover.png"><img width="170" src="img/monster_cover.png" alt="" /></a>
-                <a class="fancybox" rel="group" href="img/flobee.gif"><img width="170" src="img/flobee.gif" alt="" /></a>
-                <a class="fancybox" rel="group" href="img/fishlure1.png"><img src="img/fishlure1.png" alt="" /></a>
-            </div> 
-            <br/><br/>
 
-            <h3>Print Advertising</h3>
+            <p class="lead">I'm a web developer in Portland, Oregon. I do graphic design, print and web work for the Oregonian. I also do freelance on the side and when I'm not too busy I'm skilling up on Android and iPhone.</p>
+            <h2>HTML+CSS+JS</h2>
             <div>
-                <a class="fancybox" rel="group" href="img/larrymiller.jpg"><img style="height:170px" src="img/larrymiller.jpg" alt="" /></a>
-                <a class="fancybox" rel="group" href="img/hannah_subaru.jpg"><img style="height:170px" src="img/hannah_subaru.jpg" alt="" /></a>
-                <a class="fancybox" rel="group" href="img/hearing.jpg"><img style="height:170px" src="img/hearing.jpg" alt="" /></a>
+                <ul class="portfolio">
+                    <li><a href="img/mearsdesign.png"><img class="original" src="img/mearsdesign_thumb.jpg" alt="" /></a></li>
+                    <li><a href="img/project_bloom.png"><img class="original" src="img/project_bloom_thumb.jpg" alt="" /></a></li>
+                    <li><a href="img/werner.png"><img class="original" src="img/werner_thumb.jpg" alt="" /></a></li>
+                    <li><a href="img/cabinetcures.png"><img class="original" src="img/cabinetcures_thumb.jpg" alt="" /></a></li>
+                </ul>
             </div> 
-            <br/><br/>
-
-            <h3>Flash, iPhone and Android</h3>
+            <h2>Illustration</h2>
             <div>
-                <a class="fancybox" rel="group" href="img/dickSaysYes_300x250.swf"><img src="img/dickSaysYes_300x250.jpg" alt="" /></a>
-                <a class="fancybox" rel="group" href="img/glance0926_300x250.swf"><img src="img/glance0926_300x250.jpg" alt="" /></a>
-                <a class="fancybox" rel="group" href="img/theater1030_300x250.swf"><img src="img/theater1030_300x250.jpg" alt="" /></a>
-            <br/><br/>
+                <ul class="portfolio">
+                    <li><a href="img/monster_cover.png"><img class="original" width="170" src="img/monster_cover_thumb.jpg" alt="" /></a></li>
+                    <li><a href="img/flobee.gif"><img class="original" width="170" src="img/flobee_thumb.jpg" alt="" /></a></li>
+                    <li><a href="img/fishlure1.png"><img class="original" src="img/fishlure1_thumb.jpg" alt="" /></a></li>
+                </ul>
             </div> 
 
+            <h2>Print</h2>
+            <div>
+                <ul class="portfolio">
+                    <li><a href="img/larrymiller.jpg"><img class="original" style="height:170px" src="img/larrymiller_thumb.jpg" alt="" /></a></li>
+                    <li><a href="img/hannah_subaru.jpg"><img class="original" style="height:170px" src="img/hannah_subaru_thumb.jpg" alt="" /></a></li>
+                    <li><a href="img/pyro_aesthetic.pdf"><img class="original" style="height:170px" src="img/pyro_aesthetic_thumb.jpg" alt="" /></a></li>
+                    <li><a href="img/hearing.jpg"><img class="original" style="height:170px" src="img/hearing_thumb.jpg" alt="" /></a></li>
+                </ul>
+            </div> 
 
-    <footer id="footer">
-    <p class="pull-right">Tom's Address, Portland OR - <a href="#top">Back to top</a></p>
-    </footer>
-    </div><!-- /container -->
-    
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="js/jquery.smooth-scroll.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootswatch.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $ready(".fancybox").fancybox();
-        });
-    </script>
+            <h2>Animation</h2>
+            <div>
+                <ul class="portfolio">
+                    <li><a href="img/dickSaysYes_300x250.swf"><img class="original" src="img/dickSaysYes_300x250.jpg" alt="" /></a></li>
+                    <li><a href="img/glance0926_300x250.swf"><img class="original" src="img/glance0926_300x250_thumb.jpg" alt="" /></a></li>
+                    <li><a href="img/theater1030_300x250.swf"><img class="original" src="img/theater1030_300x250_thumb.jpg" alt="" /></a></li>
+                </ul>
+            </div> 
+
+
+
+        </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.original').each(function(){
+                    $(this).clone().removeClass('original').addClass('colorImg').appendTo($(this).parent());
+                    var toGray = $(this);
+                    toGray[0].src = grayscale(toGray[0]);
+                });
+            });
+            $('.portfolio li a').mouseenter(function(e) {
+                $(e.currentTarget).children('.colorImg').fadeIn();
+            });
+
+            $('.portfolio li a').mouseleave(function(e) {
+                $(e.currentTarget).children('.colorImg').fadeOut();
+            });
+
+            function grayscale(originalImage) {
+                var canvas = document.createElement('canvas'),
+                    context = canvas.getContext('2d'),
+                    grayImage = new Image();
+
+                grayImage.src = originalImage.src;
+                canvas.width = originalImage.width;
+                canvas.height = originalImage.height;
+
+                context.drawImage(grayImage, 0, 0);
+                var imgPix = context.getImageData(0, 0, canvas.width, canvas.height);
+                for(var y = 0; y < imgPix.height; y++) {
+                    for (var x = 0; x < imgPix.width; x++) {
+                        var i = (y * 4) * imgPix.width + x * 4;
+                        var avg = (imgPix.data[i] + imgPix.data[i + 1] + imgPix.data[i + 2]) / 3;
+
+                        imgPix.data[i] = avg;
+                        imgPix.data[i + 1] = avg;
+                        imgPix.data[i + 2] = avg;
+                    }
+                }
+
+                context.putImageData(imgPix, 0, 0, 0, 0, imgPix.width, imgPix.height);
+                return canvas.toDataURL();
+            }
+
+        </script>
     </body>
 </html>
