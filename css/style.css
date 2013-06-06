@@ -97,6 +97,8 @@ header a:hover {
 h2 {
     color: #2980b9;
     font-size:28px;
+    padding-top:16px;
+    clear:both;
 }
 
 .title {
@@ -135,7 +137,8 @@ ul {
 
 .portfolio li {
     margin-right:28px;
-    display:inline-block;
+    display:block;
+    float:left;
     width:170px;
     height:170px;
     position:relative;
@@ -175,6 +178,7 @@ ul {
 .footer {
     display:block;
     padding-top:140px;
+    clear:both;
     text-align:center;
 
 .resume {
@@ -195,4 +199,9 @@ ul {
 
 .resume ul {
     margin:12px;
+}
+
+.flash {
+    background-image:url(../img/flash.jpg);
+    background-repeat:no-repeat;
 }
