@@ -171,6 +171,7 @@ ul {
     width:170px;
     height:170px;
     overflow:hidden;
+    -o-border-radius:84px;
     border-radius:84px;
     border:3px solid #2980b9;
 }
