@@ -11,25 +11,21 @@
         <link media="all" href="css/style.css" type="text/css" rel="stylesheet" />
     </head>
     <body>
-        <div id="wrap">
-            <header>
+        <header>
+            <div>
                 <h1>tfalkner@gmail.com</h1>
                 <ul>
                     <li>
-                    <a href="resume.pdf">Resume</a>
+                        <a href="resume.pdf">Resume</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/TomFalkner">GitHub</a>
                     </li>
                 </ul>
-            </header>
-            <ul class="follow-me">
-                <li>
-                <iframe src="http://ghbtns.com/github-btn.html?user=TomFalkner&type=follow"
-                      allowtransparency="true" frameborder="0" scrolling="0" width="132" height="20"></iframe>
-                </li>
-                <li>
-    <a href="https://twitter.com/aintnonovel" class="twitter-follow-button" data-show-count="false">Follow @aintnonovel</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                </li>
-            </ul>
+            </div>
+        </header>
+        <div id="wrap" class="cf">
+            
 
             <p class="title">Hello, I'm Tom Falkner</p>
             <p class="lead">A web developer in Portland, Oregon. I do graphic design, print and web work for the <a href="http://en.wikipedia.org/wiki/The_Oregonian">Oregonian</a>. I also do freelance on the side and when I'm not too busy I'm skilling up on Android and iPhone.</p>
@@ -37,6 +33,7 @@
             <h2>HTML+CSS+JS</h2>
             <div>
                 <ul class="portfolio">
+                    <li><a href="http://aloeorg.com/"><img class="original" src="img/aloe_thumb.jpg" alt="" /></a></li>
                     <li><a href="http://www.mearsdesigngroup.com/"><img class="original" src="img/mearsdesign_thumb.jpg" alt="" /></a></li>
                     <li><a href="http://project-bloom.org/"><img class="original" src="img/project_bloom_thumb.jpg" alt="" /></a></li>
                     <li><a href="http://www.wernerjerky.com/"><img class="original" src="img/werner_thumb.jpg" alt="" /></a></li>
@@ -59,15 +56,16 @@
                     <li><a class="portfolio" rel="gallery" href="img/hannah_subaru.jpg"><img class="original" style="height:170px" src="img/hannah_subaru_thumb.jpg" alt="" /></a></li>
                     <li><a class="portfolio" rel="gallery" href="img/pyro_aesthetic.jpg"><img class="original" style="height:170px" src="img/pyro_aesthetic_thumb.jpg" alt="" /></a></li>
                     <li><a class="portfolio" rel="gallery" href="img/hearing.jpg"><img class="original" style="height:170px" src="img/hearing_thumb.jpg" alt="" /></a></li>
+                    <li><a class="portfolio" rel="gallery" href="img/tabortavern.jpg"><img class="original" style="height:170px" src="img/tabortavern_thumb.jpg" alt="" /></a></li>
                 </ul>
             </div> 
 
             <h2>Animation</h2>
             <div>
-                <ul class="portfolio">
-                    <li><a class="portfolio flash" rel="gallery" href="img/dickSaysYes_300x250.swf"><img class="original" src="img/dickSaysYes_300x250.jpg" alt="" /></a></li>
-                    <li><a class="portfolio flash" rel="gallery" href="img/glance0926_300x250.swf"><img class="original" src="img/glance0926_300x250_thumb.jpg" alt="" /></a></li>
-                    <li><a class="portfolio flash" rel="gallery" href="img/theater1030_300x250.swf"><img class="original" src="img/theater1030_300x250_thumb.jpg" alt="" /></a></li>
+                <ul class="swfportfolio">
+                    <li><a class="swfportfolio flash" rel="gallery" href="img/dickSaysYes_300x250.swf"><img class="original" src="img/dickSaysYes_300x250.jpg" alt="" /></a></li>
+                    <li><a class="swfportfolio flash" rel="gallery" href="img/glance0926_300x250.swf"><img class="original" src="img/glance0926_300x250_thumb.jpg" alt="" /></a></li>
+                    <li><a class="swfportfolio flash" rel="gallery" href="img/theater1030_300x250.swf"><img class="original" src="img/theater1030_300x250_thumb.jpg" alt="" /></a></li>
                 </ul>
             </div> 
 
@@ -75,16 +73,20 @@
 
 
 
-            <p class="footer"><a href="#">Back to Top</a></p>
         </div>
-         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-         <script src="js/jquery.fancybox.pack.js" type="text/javascript"></script>
+        <footer>
+            <p>Thanks for taking a look. Here are some other projects I am working on:</p>
+            <ul>
+                <li><a href="http://bitapocalypse.com">Bit Apocalypse</a></li>
+                <li><a href="http://lightningisrad.com">Lightning is Rad</a></li>
+            </ul>
 
-         <script type="text/javascript">
-             $("a.portfolio").fancybox();
-        
-         
-         </script>
-        
+            <a id="scroll" href="#">Back to Top</a>
+        </footer>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script src="js/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+        <script src="js/site.js" type="text/javascript"></script>
+
     </body>
 </html>
