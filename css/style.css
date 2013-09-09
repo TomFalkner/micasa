@@ -220,6 +220,7 @@ footer p {
 }
 
 footer ul {
+    padding-left:0;
 
 }
 footer ul li {
@@ -262,6 +263,6 @@ footer ul li {
     margin:12px auto;
     display:block;
     background-color:#ffb61a;
-    color:#fff;
+    color:#000;
     border-radius:8px;
 }
