@@ -286,15 +286,24 @@ footer ul li {
 }
 @media screen and (max-width: 420px) {
     .email {
-        font-size: 1em;
-        line-height:2.2em;
+        font-size: 1.1em;
+        line-height:2.0em;
     }
 
     header div ul {
         padding:0;
-
+        display:block;
+        width: 100%;
     }
 
+    header div ul li {
+        margin-right: 8px;
+        color: #666;
+    }
+    header div ul li a {
+        color:#666;
+        font-weight:400;
+    }
     h1 {
         font-size: 1.7em;
         text-align:center;
