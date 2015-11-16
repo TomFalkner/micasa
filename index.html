@@ -1,95 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Tom Falkner</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=true;">
-        <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-        <link media="all" href="css/jquery.fancybox.css" type="text/css" rel="stylesheet" />
-        <link media="all" href="css/style.css" type="text/css" rel="stylesheet" />
-    </head>
-    <body>
-        <header>
-            <div>
-                <p class="email">tfalkner@gmail.com</p>
-                <ul>
-                    <li>
-                        <a href="https://github.com/TomFalkner">GitHub</a>
-                    </li>
-                    <li>
-                        <a href="http://www.linkedin.com/in/tomfalkner">LinkedIn</a>
-                    </li>
-                </ul>
-            </div>
-        </header>
-        <div id="wrap" class="cf">
-            
+---
+layout: default
+---
+<div id="wrap" class="cf">
+  <h1>Tom Falkner's Site</h1>
+  <!--
+      <p class="lead"></p>
+      -->
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-            <h1>Hello, I'm Tom Falkner</h1>
-            <p class="lead">I'm the digital design lead at the <a href="http://en.wikipedia.org/wiki/The_Oregonian">Oregonian</a> which means I spend my days designing advertising and coding web pages in a fast moving, high paced production environment. I also do freelance web development on the side and when I'm not too busy I'm skilling up on Android and iPhone.</p>
-            <p class="lead">Check out some of my previous work.</p>
-            <h2>HTML+CSS+JS</h2>
-            <div>
-                <ul class="portfolio">
-                    <li><a href="http://aloeorg.com/"><img class="original" src="img/aloe_thumb.jpg" alt="" /></a></li>
-                    <li><a href="http://www.mearsdesigngroup.com/"><img class="original" src="img/mearsdesign_thumb.jpg" alt="" /></a></li>
-                    <li><a href="http://project-bloom.org/"><img class="original" src="img/project_bloom_thumb.jpg" alt="" /></a></li>
-                    <li><a href="http://www.wernerjerky.com/"><img class="original" src="img/werner_thumb.jpg" alt="" /></a></li>
-                    <li><a href="http://cabinetcures.com/"><img class="original" src="img/cabinetcures_thumb.jpg" alt="" /></a></li>
-                </ul>
-            </div> 
-            <h2>Illustration</h2>
-            <div>
-                <ul class="portfolio">
-                    <li><a class="portfolio" rel="gallery" href="img/monster_cover.png"><img class="original" src="img/monster_cover_thumb.jpg" alt="" /></a></li>
-                    <li><a class="portfolio" rel="gallery" href="img/flobee.gif"><img class="original" src="img/flobee_thumb.jpg" alt="" /></a></li>
-                    <li><a class="portfolio" rel="gallery" href="img/fishlure1.png"><img class="original" src="img/fishlure1_thumb.jpg" alt="" /></a></li>
-                </ul>
-            </div> 
-
-            <h2>Print</h2>
-            <div>
-                <ul class="portfolio">
-                    <li><a class="portfolio" rel="gallery" href="img/larrymiller.jpg"><img class="original" src="img/larrymiller_thumb.jpg" alt="" /></a></li>
-                    <li><a class="portfolio" rel="gallery" href="img/hannah_subaru.jpg"><img class="original" src="img/hannah_subaru_thumb.jpg" alt="" /></a></li>
-                    <li><a class="portfolio" rel="gallery" href="img/pyro_aesthetic.jpg"><img class="original" src="img/pyro_aesthetic_thumb.jpg" alt="" /></a></li>
-                    <li><a class="portfolio" rel="gallery" href="img/hearing.jpg"><img class="original" src="img/hearing_thumb.jpg" alt="" /></a></li>
-                    <li><a class="portfolio" rel="gallery" href="img/tabortavern.jpg"><img class="original" src="img/tabortavern_thumb.jpg" alt="" /></a></li>
-                </ul>
-            </div> 
-
-            <h2>Animation</h2>
-            <div>
-                <ul class="swfportfolio">
-                    <li><a class="swfportfolio flash" rel="gallery" href="img/mcmen-300x250.swf"><img class="original" src="img/mcmen-300x250-thumb.jpg" alt="" /></a></li>
-                    <li><a class="swfportfolio flash" rel="gallery" href="img/vegfest-300x250.swf"><img class="original" src="img/vegfest-300x250-thumb.jpg" alt="" /></a></li>
-                    <li><a class="swfportfolio flash" rel="gallery" href="img/dickSaysYes_300x250.swf"><img class="original" src="img/dickSaysYes_300x250.jpg" alt="" /></a></li>
-                    <li><a class="swfportfolio flash" rel="gallery" href="img/glance0926_300x250.swf"><img class="original" src="img/glance0926_300x250_thumb.jpg" alt="" /></a></li>
-                    <li><a class="swfportfolio flash" rel="gallery" href="img/theater1030_300x250.swf"><img class="original" src="img/theater1030_300x250_thumb.jpg" alt="" /></a></li>
-                </ul>
-            </div> 
-
-
-
-
-
-        </div>
-        <footer>
-            <p>Thanks for taking a look. Here are some other projects I am working on:</p>
-            <ul>
-                <li><a href="http://bitapocalypse.com">Bit Apocalypse</a></li>
-                <li><a href="http://lightningisrad.com">Lightning is Rad</a></li>
-            </ul>
-
-            <a id="scroll" href="#">Back to Top</a>
-        </footer>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-        <script src="js/jquery.fancybox.pack.js" type="text/javascript"></script>
-
-        <script src="js/site.js" type="text/javascript"></script>
-
-    </body>
-</html>
+      <h2>
+	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
