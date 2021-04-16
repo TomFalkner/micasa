@@ -1,0 +1,57 @@
+I"<p>I am a senior full stack developer at
+<a href="https://pollinate.com/#/">pollinate</a> where I spend my days as part of
+the <a href="https://www.spectrumcustomizer.com/">Spectrum Customizer</a>
+platform team.</p>
+
+<p>I have extensive frontend experience and I have implemented projects
+using Vue and Angular. I take performance seriously and am regularly
+tasked with taking memory heavy and CPU intensive projects and finding
+a way for them to run on impossibly old mobile phones.</p>
+
+<p>I also work on server side projects using node and .net (C# and F#).</p>
+
+<h2 id="buzzwords">Buzzwords</h2>
+
+<h3 id="on-the-frontend">On the frontend</h3>
+
+<ul>
+  <li>Vue</li>
+  <li>React</li>
+  <li>Greensocks</li>
+  <li>Threejs</li>
+  <li>Webgl</li>
+  <li>Web Assembly</li>
+  <li>Pixel perfect CSS</li>
+  <li>Clean, standards compliant HTML</li>
+  <li>Flavor of the year build systems: Grunt, Gulp and Webpack</li>
+</ul>
+
+<h3 id="server-side">Server Side</h3>
+
+<ul>
+  <li>C#</li>
+  <li>Node</li>
+  <li>SQL</li>
+</ul>
+
+<h3 id="mobile">Mobile</h3>
+
+<h3 id="things-i-like-but-never-really-expect-to-get-paid-for">Things I like but never really expect to get paid for</h3>
+
+<ul>
+  <li>Hacking emacs lisp</li>
+  <li>Common Lisp</li>
+  <li>C++ with a focus on working with V8, node and OpenGL.</li>
+  <li>F#</li>
+  <li>All the weird little unix mini-languages</li>
+  <li>Mobile application development - I’ve got a fair bit of mobile experience using both android and iOS. I’ve written wrappers that interface with web views and then underlying nativa applications. I’m comfortable working with both Swift and Java but by no means an expert.</li>
+</ul>
+
+<h3 id="things-ive-done-but-dont-want-to-get-paid-for">Things I’ve done but don’t want to get paid for</h3>
+
+<ul>
+  <li>I’ve developed several Wordpress themes. That was a time.</li>
+  <li>Actionscript. RIP.</li>
+  <li>Demandware. What promise Ecmascript version 4 running on Rhino, sewn together with XML backed graphs and bundled neatly in an Eclipse plugin must have shown. I’ve heard it’s gotten better.</li>
+</ul>
+:ET
